@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tiket Mu</string>
+
+    <string name="label_btn_checkout">Checkout</string>
+    <string name="slogan"> Wisata Jadi Lebih Asyik</string>
+    <string name="signin">SIGN IN</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="email_label">Email Address</string>
+    <string name="nama_label">Nama</string>
+    <string name="bio_label">Bio</string>
+    <string name="explore">Explore Now</string>
+    <string name="buy">BUY TICKET</string>
+
+</resources>

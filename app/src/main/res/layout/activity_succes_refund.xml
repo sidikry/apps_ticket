@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuccesRefundAct">
+
+    <ImageView
+        android:id="@+id/logo_succes_buy"
+        android:layout_width="262dp"
+        android:layout_height="308dp"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/ic_undraw_confirmation_2uy0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title_success_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="Terimakasih telah konfirmasi"
+        android:textAlignment="center"
+        android:textColor="@color/blackprimary"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_succes_buy" />
+
+    <TextView
+        android:id="@+id/subtitle_success_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserratlight"
+        android:lineSpacingExtra="9dp"
+        android:text="Selamat Menikmati and  \n jangan lupa bahagia"
+        android:textAlignment="center"
+        android:textColor="@color/greyprimary"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_success_buy" />
+
+
+    <Button
+        android:id="@+id/btn_my_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/bg_layout_white"
+        android:fontFamily="@font/montserratmedium"
+        android:text="My Dashboard"
+        android:textColor="@color/greyprimary"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle_success_buy" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
